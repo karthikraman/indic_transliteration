@@ -444,7 +444,7 @@ def _setup():
       'vowels': s("""a A i I u U R RR lR lRR e E ai o O au"""),
       'marks': s("""A i I u U R RR lR lRR e E ai o O au"""),
       'virama': [''],
-      'other': s('M H !'),
+      'other': s('M H ~'),
       'consonants': s("""
                             k kh g gh G
                             c ch j jh J
