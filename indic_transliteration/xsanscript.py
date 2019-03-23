@@ -64,6 +64,9 @@ DEVANAGARI = 'devanagari'
 #: Internal name of Gujarati.
 GUJARATI = 'gujarati'
 
+#: Internal name of Grantha.
+GRANTHA = 'grantha'
+
 #: Internal name of Gurmukhi.
 GURMUKHI = 'gurmukhi'
 
@@ -397,6 +400,27 @@ def _setup():
       'symbols': s("""
                        ॐ ऽ । ॥
                        ० १ २ ३ ४ ५ ६ ७ ८ ९
+                       """)
+    }, is_roman=False),
+    GRANTHA: Scheme({
+      'vowels': s("""𑌅 𑌆 𑌇 𑌈 𑌉 𑌊 𑌋 𑍠 𑌌 𑍡 𑌏𑌀 𑌏 𑌐 𑌓𑌀 𑌓 𑌔"""),
+      'marks': s("""𑌾 𑌿 𑍀 𑍁 𑍂 𑍃 𑍄 𑍢 𑍣 𑍇𑌀 𑍇 𑍈 𑍋𑌀 𑍋 𑍌"""),
+      'virama': s('𑍍'),
+      'other': s('𑌂 𑌃 𑌁'),
+      'consonants': s("""
+                            𑌕 𑌖 𑌗 𑌘 𑌙
+                            𑌚 𑌛 𑌜 𑌝 𑌞
+                            𑌟 𑌠 𑌡 𑌢 𑌣
+                            𑌤 𑌥 𑌦 𑌧 𑌨
+                            𑌪 𑌫 𑌬 𑌭 𑌮
+                            𑌯 𑌰 𑌲 𑌵
+                            𑌶 𑌷 𑌸 𑌹
+                            𑌳 𑌕𑍍𑌷 𑌜𑍍𑌞
+                            𑌨𑌼 𑌰𑌼 𑌳𑌼
+                            """),
+      'symbols': s("""
+                       𑍐 𑌽 । ॥
+                       ௦ ௧ ௨ ௩ ௪ ௫ ௬ ௭ ௮ ௯
                        """)
     }, is_roman=False),
     GUJARATI: Scheme({
