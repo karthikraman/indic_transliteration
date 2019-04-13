@@ -650,7 +650,7 @@ def _setup():
                             """),
       'symbols': s("""
                        ௐ ऽ । ॥
-                       ௦ ௧ ௨ ௩ ௪ ௫ ௬ ௭ ௮ ௯
+                       0 1 2 3 4 5 6 7 8 9
                        """)
     }, is_roman=False),
     TELUGU: Scheme({
