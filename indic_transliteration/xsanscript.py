@@ -654,8 +654,8 @@ def _setup():
                        """)
     }, is_roman=False),
     TELUGU: Scheme({
-      'vowels': s("""అ ఆ ఇ ఈ ఉ ఊ ఋ ౠ ఌ ౡ ఏ ఐ ఓ ఔ"""),
-      'marks': s("""ా ి ీ ు ూ ృ ౄ ౢ ౣ ే ై ో ౌ"""),
+      'vowels': s("""అ ఆ ఇ ఈ ఉ ఊ ఋ ౠ ఌ ౡ ఏ ఎ ఐ ఓ ఒ ఔ"""),
+      'marks': s("""ా ి ీ ు ూ ృ ౄ ౢ ౣ ె ే ై ొ ో ౌ"""),
       'virama': s('్'),
       'other': s('ం ః ఁ'),
       'consonants': s("""
